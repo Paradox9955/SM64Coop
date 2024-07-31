@@ -119,7 +119,7 @@ echo "Building the project with $num_jobs jobs and $render_api rendering API..."
 make -j"$num_jobs" RENDER_API="$render_api" 2>&1 | tee -a $LOG_FILE
 
 # Notify completion
-echo "Installation and build process completed." | tee -a $LOG_FILE
+echo "Finished building sm64ex-coop." | tee -a $LOG_FILE
 
 # Remove log file upon completion
 rm -f $LOG_FILE
