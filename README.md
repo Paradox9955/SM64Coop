@@ -1,18 +1,39 @@
-To build SM64ex-Coop v36.1 for Windows, paste the following code into MSYS2.
+# sm64ex-coop
+
+To build sm64ex-coop for Windows, paste the following code into MSYS2.
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Paradox9955/sm64ex-coop/main/make-windows.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Paradox9955/sm64ex-coop/main/make-sm64excoop-windows.sh)
 ```
 
-To build SM64ex-Coop v36.1 for Ubuntu, paste the following code into the Ubuntu terminal.
+To build sm64ex-coop for Ubuntu, paste the following code into the terminal.
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Paradox9955/sm64ex-coop/main/make-ubuntu.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Paradox9955/sm64ex-coop/main/make-sm64excoop-ubuntu.sh)
 ```
 
-To build SM64ex-Coop v36.1 for Arch Linux, paste the following code into the terminal.
+To build sm64ex-coop for Arch Linux, paste the following code into the terminal.
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Paradox9955/sm64ex-coop/main/make-arch.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Paradox9955/sm64ex-coop/main/make-sm64excoop-arch.sh)
 ```
 
+# sm64coopdx
+
+To build sm64coopdx for Windows, paste the following code into MSYS2.
+
+```
+bash <(curl -Ls https://raw.githubusercontent.com/Paradox9955/sm64ex-coop/main/make-sm64coopdx-windows.sh)
+```
+
+To build sm64coopdx for Ubuntu, paste the following code into the terminal.
+
+```
+bash <(curl -Ls https://raw.githubusercontent.com/Paradox9955/sm64ex-coop/main/make-sm64coopdx-ubuntu.sh)
+```
+
+To build sm64coopdx for Arch Linux, paste the following code into the terminal.
+
+```
+bash <(curl -Ls https://raw.githubusercontent.com/Paradox9955/sm64ex-coop/main/make-sm64coopdx-arch.sh)
+```
