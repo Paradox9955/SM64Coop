@@ -104,4 +104,7 @@ echo "Building the project with $num_jobs jobs..." | tee -a $LOG_FILE
 make -j"$num_jobs" 2>&1 | tee -a $LOG_FILE
 
 # Notify completion
-echo "Installation and build process completed." | tee -a $LOG_FILE
+echo "Finished building sm64ex-coop." | tee -a $LOG_FILE
+
+# Remove log file upon completion
+rm -f $LOG_FILE
